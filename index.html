@@ -23,12 +23,12 @@
 </pre>
 <img  src="home.png" width="1150" height="600">
 
-<h2>Environment</h2>
-<pre>  左側欄位 "Home" 的下方為 "Environment"，此頁面顧名思義是與環境有關，
-我們可以在這裡創建虛擬環境、安裝模組。
+<h2>Environments</h2>
+<pre>  左側欄位 "Home" 的下方為 "Environments"，此頁面顧名思義是與環境有關，
+我們可以在這裡創建虛擬環境、安裝模組，以及開啟各個虛擬環境對應的終端下指令。
 </pre>
 
-<h3>安裝模組</h3>
+<h3>安裝模組 (圖形介面)</h3>
 <pre>  當我們要用到一個新的模組時，就必須在環境中安裝這個模組。
 在 Anaconda Navigator 裡我們可以用以下方式來安裝模組。
 
@@ -37,8 +37,20 @@
 
 <img  src="anaconda_numpy_install.png" width="1150" height="600">
 
-接著會跳出一個小方格視窗，再次點擊 "Apply" ，即會安裝模組。</p>
+接著會跳出一個小方格視窗，再次點擊 "Apply" ，即會安裝模組。
 <img  src="anaconda_numpy_install2.png" width="1150" height="600"></pre>
+
+<h3>安裝模組 (下指令)</h3>
+<pre>  Anconda Navigator 的圖形介面讓我們可以容易的安裝模組，不過有時候，會因為關鍵字不對等等的問題，
+這時就可以用傳統下指令的方式來安裝模組。
+
+首先，找到你想要安裝模組的那個環境，點擊綠色三角形，選 "Open Terminal"。
+
+<img  src="cmd_terminal.png" width="1150" height="600">
+
+接著會跳出一個黑底的小方格視窗，接著輸入指令: "<mark>pip install numpy</mark>"。(我們以numpy模組為例)
+<img  src="install_numpy.png" width="700" height="400"></pre>
+
 
 <h3>創建虛擬環境</h3>
 <pre>  從推出開始，Python 的版本已經經過多次更新，因此，當一些模組更新的沒有 Python 快，
