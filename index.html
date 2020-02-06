@@ -12,15 +12,13 @@
 並且，在此介面中，也可以完成虛擬環境的建造，滿足各種模組在支援性上的問題。
 
   下面讓我們簡單介紹 Anaconda Navigator。不過，因為一開始安裝完Anaconda後，
-不像一些應用程式會在桌面建立捷徑，怕有些人會找不到 Anaconda Navigator ，這裡提醒大家可以利用Search功能來找到他。
-</pre>
+不像一些應用程式會在桌面建立捷徑，怕有些人會找不到 Anaconda Navigator ，這裡提醒大家可以利用Search功能來找到他。</pre>
 <img  src="search_app.png" width="600" height="500">
 
 <h2>Home</h2>
 <pre>  打開 Navigator 應用程式後一開始畫面會出現在首頁，也就是左邊欄位為 "Home" 的地方。
 此頁面中主要整合了各個開發環境的應用程式，可以在此畫面中安裝這些應用程式。
-此外，若擁有多個<a>虛擬環境</a>的使用者，可以由圖中<b>藍色框框</b>處更換想要安裝應用程式的環境。
-</pre>
+此外，若擁有多個<a>虛擬環境</a>的使用者，可以由圖中<b>藍色框框</b>處更換想要安裝應用程式的環境。</pre>
 <img  src="home.png" width="1150" height="600">
 
 <h2>Environments</h2>
@@ -28,13 +26,12 @@
 我們可以在這裡創建虛擬環境、安裝模組，以及開啟各個虛擬環境對應的終端下指令。
 </pre>
 
-<h3>安裝模組 (圖形介面)</h3>
+<h3 id="InstallModules">安裝模組 (圖形介面)</h3>
 <pre>  當我們要用到一個新的模組時，就必須在環境中安裝這個模組。
 在 Anaconda Navigator 裡我們可以用以下方式來安裝模組。
 
    在圖中藍色框框處的下拉式選單，選擇 "not installed" 或是 "All" ，在綠色方格裡輸入要查詢的模組名稱。
 找到要安裝的模組後，點選右下角 "Apply" 字樣的綠色按鈕。
-
 <img  src="anaconda_numpy_install.png" width="1150" height="600">
 
 接著會跳出一個小方格視窗，再次點擊 "Apply" ，即會安裝模組。
@@ -45,7 +42,6 @@
 這時就可以用傳統下指令的方式來安裝模組。
 
 首先，找到你想要安裝模組的那個環境，點擊綠色三角形，選 "Open Terminal"。
-
 <img  src="cmd_terminal.png" width="1150" height="600">
 
 接著會跳出一個黑底的小方格視窗，接著輸入指令: "<mark>pip install numpy</mark>" 就能安裝了。(我們以numpy模組為例，請自行改為要安裝的模組名稱)
@@ -64,11 +60,9 @@
 
   那麼，下面就帶大家創建一個新的虛擬環境~~
 首先，點擊紅色框框處創建新環境。(若還沒創建任何虛擬環境，你的頁面裡應該只有一個環境 "base(root)" )。
-
 <img  src="create.png" width="1150" height="600">
 
 接著會跳出方格視窗，我們需要鍵入想要的名稱、以及選擇要安裝的 Python 版本。之後按下 "Create" 鍵。
-
 <img  src="create2.png" width="1150" height="600">
 <mark>!!新建的虛擬環境不會預先安裝 Spyder 或 VS Code 等開發程式的app，需到 Home 頁面點選安裝需要的版本。</mark>
 </pre>
